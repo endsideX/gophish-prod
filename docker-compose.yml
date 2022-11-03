@@ -21,6 +21,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
+      - "3334:3334"
     networks:
       - default
   mysql:
