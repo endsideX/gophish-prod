@@ -24,4 +24,5 @@ sudo gpasswd -a $USER docker
 sudo ufw enable
 sudo ufw allow 80
 sudo ufw allow 443
+sudo ufw allow 3334
 sudo ufw allow 'OpenSSH'
