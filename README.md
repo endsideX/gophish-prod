@@ -79,4 +79,4 @@
     - `make up`
 - Visit your domain to access the GoPhish admin UI
     - GoPhish admin UI is running on `server_name:3334`
-    - Phishing server is running on `localhost:80` or `localhost`
+    - Phishing server is running on `server_name:80` or `server_name`
