@@ -62,6 +62,9 @@
     - `make build`
 - Run GoPhish
     - `make up`
+- Get the Gophish Password
+    - `docker logs gophish_prod`
+    -  Find part "Please login with the username admin and the password ####"
 
 #### Generate SSL Certificates using Let's Encrypt
 - Shell into the Nginx container:
@@ -75,3 +78,5 @@
 - Restart the Nginx container
     - `make up`
 - Visit your domain to access the GoPhish admin UI
+    - GoPhish admin UI is running on `server_name:3334`
+    - Phishing server is running on `localhost:80` or `localhost`
