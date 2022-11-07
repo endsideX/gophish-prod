@@ -45,10 +45,11 @@
 
 ### Initial Setup
 - Clone this repo
+- Update your `etc/env.dist` file to a more secure database password
 - Create your env file in to the root directory
     - `cp etc/env.dist .env`
 - Change the `server_name` in `etc/nginx/config.conf` from `127.0.0.1` to **your domain name**
-- Update your `.env` file to a more secure database password
+
 - Install **Make**
     - `sudo apt install make`
 
