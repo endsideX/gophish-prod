@@ -15,6 +15,7 @@ sudo usermod -aG docker ubuntu
 # install docker and docker-compose
 sudo apt install docker-compose
 sudo apt install docker-ce
+sudo apt install nano
 
 # remove the need for sudo
 sudo groupadd docker
