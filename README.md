@@ -22,24 +22,6 @@
 
 * A registered domain name
 
-## Setup locally
-- Create your env file
-    - `cp etc/env.dist .env`
-- Build containers
-    -  `make build`
-- Run GoPhish
-    - `make up`
-- Restart proxy to reflect changes
-    - `docker exec -it gophish-proxy service nginx restart`
-- GoPhish admin UI is running on `localhost` & `localhost:3333`
-- Phishing server is running on `localhost:8080`
-- Adminer UI is running on `localhost:9000`
-
-### Stop and Remove project containers
-- Stop all containers
-    - `make stop`
-- Remove all containers
-    `make down`
 
 ## Setup on a Production Server
 
