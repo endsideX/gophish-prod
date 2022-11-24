@@ -54,6 +54,8 @@
     - `docker exec -it gophish-proxy bash`
 - Run Certbot:
     - `certbot --nginx`
+- update the configuration stored in the `/etc/nginx/conf.d/`
+    - update `listen 3334;` to `listen 3334 ssl;` and copy & paste the rest from the first server block (`ssl_certificate` to `ssl_dhparam`).
 - Follow on-screen prompts
 - Restart Nginx service
     - `service nginx restart`
